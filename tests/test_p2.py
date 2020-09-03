@@ -2,8 +2,8 @@ import pytest
 
 from examples import p2
 
-class TestExamples:
 
+class TestExamples:
     def test_find_power_two_error(self):
         assert p2.find_power_of_two(12) == "Error"
 
