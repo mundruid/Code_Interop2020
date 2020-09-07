@@ -4,10 +4,10 @@ from examples import p2
 
 
 class TestExamples:
-    def test_find_power_two_error(self):
+    def test_find_power_two_error_odd(self):
         assert p2.find_power_of_two(13) == "Error"
 
-    def test_find_power_two_error(self):
+    def test_find_power_two_error_even(self):
         assert p2.find_power_of_two(12) == "Error"
 
     def test_find_power_two_number(self):
