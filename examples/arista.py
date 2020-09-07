@@ -1,7 +1,7 @@
 from netmiko import ConnectHandler, NetmikoTimeoutException
 
 
-def connect_to_arista(device_type, host, username, password):
+def connect_to_arista(host, username, password):
     arista = {
         "device_type": "arista_eos",
         "host": host,

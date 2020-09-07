@@ -2,7 +2,7 @@ import math
 
 
 def find_power_of_two(number):
-    if not math.sqrt(number).is_integer():
+    if number % 2 != 0:
         return "Error"
     else:
         return math.sqrt(number)
