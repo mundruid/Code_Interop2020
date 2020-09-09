@@ -7,7 +7,7 @@ from examples import http_request
 
 @pytest.fixture
 def sample_json():
-    with open("tests/sample.json") as f:
+    with open("tests/fixtures/sample.json") as f:
         return json.load(f)
 
 
