@@ -20,8 +20,9 @@ class TestUnitSample:
             # call foo
             foo()
 
-        # make necessari assertions
+        # make necessary assertions
         assert ...
 
     def test_foo_failure():
         ...
+
