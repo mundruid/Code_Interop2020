@@ -9,7 +9,7 @@ class TestUnitSample:
     def teardown:
         """Reset mocks"""
 
-    def test_foo_success(test):
+    def test_foo_success(test, mocks, fixtures):
         """Successful test"""
         # initialize fixtures
         mock_response = test

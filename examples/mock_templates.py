@@ -11,5 +11,5 @@ def test_example(self, m):
 class TestExample:
     def test_example(self, m):
 
-with @mock.patch('package.module.Classname', return_value='echo') as m:
+with mock.patch('package.module.Classname', return_value='echo') as m:
 

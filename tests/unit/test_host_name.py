@@ -14,7 +14,7 @@ class TestHostNames:
         assert hosts.validate_rtr_name('SC-rtr-41') == False
 
     def test_validate_rtr_name_no_dash(self):
-        assert hosts.validate_rtr_name('SC-rtr-41') == False
+        assert hosts.validate_rtr_name('SCrtr-41') == False
 
     def test_validate_rtr_name_no_rtr(self):
         assert hosts.validate_rtr_name('SC-41') == False
